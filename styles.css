@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+    border: 1px none grey;
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    min-height: 95vh;
+    max-width: 95vh;
+    overflow: scroll;
+}
+h2{
+    color: rgb(161, 255, 224);
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    width: 100%;
+    height: 100%;
+    font-size: 40pt;
+    text-align: left;
+    font-weight: 650;
+}
+h3{
+    text-align: left;
+    letter-spacing: 1.5px;
+    font-size: 38pt;
+}
+a{
+    color: pink;
+    font-size: 22pt;
+    text-decoration: none;
+}
+a:hover{
+    color: darkorange;
+    font-size: 20pt;
+}
+p{
+    border: 0px none greenyellow;
+    width: 85%;
+    height: 85%;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+    font-size: 18pt;
+    line-height: 1.5;
+    text-align: left;
+}
+li, ul {
+    text-align: left;
+    list-style-type: none;
+    letter-spacing: 1px;
+    line-height: .7;
+}
+div {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0px;
+    border: 12px solid pink;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-color: pink rgba(165, 88, 236, 0.842) pink #5bb5ec;
+}
+
+.navBar{
+    font-size: 16pt;
+}
+nav{
+    display: inline;
+}
+.profileP{
+    border: 5px none pink;
+    padding: 0px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    width: 95%;
+    height: 700px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formTitle{
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    letter-spacing: .5px;
+    font-size: 24px;
+    font-weight: 375;
+}
+/*PARALAX*/
+.sun{
+    background: url("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/03/the_sun_in_high_resolution/24010613-1-eng-GB/The_Sun_in_high_resolution_pillars.jpg") 100% fixed;
+  
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.imgBord{
+    border: 5px solid pink;
+    padding: 0px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+}
+/*DIV BOXES*/
+.intro{
+    margin-bottom: 30px;
+}
+.pink{
+    background-color: pink;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.yellow{
+    padding-top: 60px;
+}
+.blue{
+    width: 100%;
+    height: 650px;
+    margin-bottom: 60px;
+}
+/*FLEX*/
+.container{
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    color: orange;
+}
+.item1{
+
+    border: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+}
+.item2{
+    border: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+}
+.item3{
+    border: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+}
+.item4{
+    border: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+}
+
+.projects{
+    font-size: 18px;
+    text-align: center;
+}
+
+.flexYou{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.flexTwo{
+    height: 420px;
+}
+.flexTres{
+    height: 420px;
+}
+.msg{
+    margin-left: -3px;
+    color: white;
+}
+/*FORM*/
+form{
+    text-align: left;
+    margin-top: 5px;
+    color: darkorange;
+}
+input[type="text"],
+input[type="email"] {
+  border: 2px solid #000;
+  width: 70%;
+  line-height: 1;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: rgba(165, 88, 236, 0.842) pink #0088dd pink;
+}
+input[type="button"] {
+  border: 3px solid #333;
+  background-color: rgb(151, 52, 52);
+  background-image: linear-gradient(lightpink, lightblue);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: teal red hotpink #0088dd;
+  padding: 10px 2em;
+  font-weight: bold;
+  color: #fff;
+  width: 30%;
+  text-align: left;
+}
+input[type="button"]:hover {
+    background-image: linear-gradient(violet, orange);
+}
+input[type="text"]:focus {
+    background-color: pink;
+}
+/*NAV*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    line-height: 1.5;
+  }
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 32%;
+    text-align: right;
+    margin-left: 50%;
+    position: relative;
+  }
+.normLink{
+    color: pink;
+    font-size: 16pt;
+}
+.dropBar{
+    font-size: 12pt;
+}
+
+@media screen (max-width: 100%);
+
